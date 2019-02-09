@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>High Low Game</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body style="background-color:black;">
+		<img class="center" src="guess.png">
+		<div id=text>
+			<center>
+			<h1 style="color:powderblue;">
+				CAN YOU GUESS THE NUMBER?
+			</h1>
+			<p style="color:powderblue;">Choose a number from 1-100!!</p>
+			<div class="input-group input-group-lg" id="input">
+  				<div class="input-group-prepend">
+    				<span class="input-group-text" id="inputGroup-sizing-lg" style="color:white; background-color:black; ">Enter Number Here.</span>
+  				</div>
+  				<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="number">
+  				<button onclick="location.reload();" type="reset" value="Reset" style="background-color:black; color:white;" >Try Again</button>
+			</div>
+			<br>
+			<button type="button" class="btn btn-danger" onclick="checkValue()" style="background-color:powderblue; color:black;">Guess</button>
+			<h2 id='result' style="color:#FFFF00;">Make a guess!</h2>
+		</div>
+		</center>
+		 <!--java-->
+		<script type="text/javascript" src="script.js"></script>
+		<!--bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	</body>
+</html>
